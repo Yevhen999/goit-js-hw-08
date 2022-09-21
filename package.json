@@ -4,7 +4,7 @@
   "description": "",
   "homepage": "https://Yevhen999.github.io/goit-js-hw-08",
   "scripts": {
-    "start": "parcel src/*.html -p 1234",
+    "start": "parcel src/*.html -p 9999",
     "build": "parcel build src/*.html --public-url /goit-js-hw-08/"
   },
   "repository": {
@@ -18,6 +18,8 @@
     "url": "https://github.com/goitacademy/parcel-project-template/issues"
   },
   "dependencies": {
+    "@vimeo/player": "^2.17.1",
+    "lodash.throttle": "^4.1.1",
     "modern-normalize": "^1.1.0",
     "simplelightbox": "^2.10.3"
   },
