@@ -19,7 +19,7 @@ function onSubmit(evt) {
   const currentValue = localStorage.getItem(STORAGE_KEY);
   const parseValue = JSON.parse(currentValue);
   if (refs.onInputEmailRef.value === '') {
-    console.log('Потрібно заповнити поле "Email"');
+    alert('Потрібно заповнити поле "Email"');
   } else {
     console.log(parseValue);
     evt.currentTarget.reset();
